@@ -13,6 +13,7 @@ namespace myWebApp.Data
         public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
 
+        // TODO pull config from env
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
             => optionsBuilder.UseNpgsql("Host=localhost;Database=my_dotnet_webapp;Username=postgres;Password=postgres");
     }
