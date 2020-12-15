@@ -17,6 +17,7 @@ Helpful tutorials:
 * https://docs.microsoft.com/en-us/ef/core/
 * https://www.npgsql.org/efcore/
 * https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio-code
+* https://docs.microsoft.com/en-us/aspnet/core/security/authentication/scaffold-identity?view=aspnetcore-5.0&tabs=netcore-cli
 
 ## Setup
 

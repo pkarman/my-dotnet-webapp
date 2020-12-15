@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using myWebApp.Areas.Identity.Data;
+using myWebApp.Data;
 
 [assembly: HostingStartup(typeof(myWebApp.Areas.Identity.IdentityHostingStartup))]
 namespace myWebApp.Areas.Identity
@@ -15,12 +16,12 @@ namespace myWebApp.Areas.Identity
         public void Configure(IWebHostBuilder builder)
         {
             builder.ConfigureServices((context, services) => {
-                services.AddDbContext<myWebAppIdentityDbContext>(options =>
-                    options.UseSqlServer(
-                        context.Configuration.GetConnectionString("myWebAppIdentityDbContextConnection")));
+                services.AddDbContext<BloggingContext>(options =>
+                    options.UseNpgsql(
+                        context.Configuration.GetConnectionString("BloggingContext")));
 
                 services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<myWebAppIdentityDbContext>();
+                    .AddEntityFrameworkStores<BloggingContext>();
             });
         }
     }
