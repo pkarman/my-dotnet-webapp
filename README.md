@@ -4,9 +4,10 @@ Some notes on learning .NET coming from the Ruby On Rails world.
 
 I worked on MacOS with PostgreSQL running in a local Docker container.
 
-Rails | .NET
-ActiveRecord | Entity Framework Core
-ERB | Razor Pages
+| Rails | .NET |
+| Ruby | C# |
+| ActiveRecord | Entity Framework Core |
+| ERB | Razor Pages |
 
 Helpful tutorials:
 
