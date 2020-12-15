@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
+using myWebApp.Data;
 
 namespace myWebApp
 {
@@ -23,6 +25,13 @@ namespace myWebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<BloggingContext>(
+              options => options.UseNpgsql(Configuration.GetConnectionString("BloggingContext"))
+            );
+
+            // TODO
+            // services.AddDatabaseDeveloperPageExceptionFilter();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

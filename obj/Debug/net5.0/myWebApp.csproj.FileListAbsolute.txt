@@ -37,3 +37,9 @@
 /Users/pkarman/dotnet/myWebApp/obj/Debug/net5.0/myWebApp.pdb
 /Users/pkarman/dotnet/myWebApp/obj/Debug/net5.0/myWebApp.genruntimeconfig.cache
 /Users/pkarman/dotnet/myWebApp/obj/Debug/net5.0/myWebApp.csproj.CopyComplete
+/Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
+/Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Npgsql.dll
+/Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
