@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[5.0.1.1, )"

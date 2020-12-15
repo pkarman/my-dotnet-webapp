@@ -15,6 +15,8 @@ namespace myWebApp.Data
 
         // TODO pull config from env
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql("Host=localhost;Database=my_dotnet_webapp;Username=postgres;Password=postgres");
+            => optionsBuilder
+               .UseNpgsql("Host=localhost;Database=my_dotnet_webapp;Username=postgres;Password=postgres")
+               .UseSnakeCaseNamingConvention();
     }
 }

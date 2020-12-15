@@ -25,6 +25,7 @@ make up
 make setup
 dotnet add package Npgsql --version 5.0.1.1
 dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+dotnet add package EFCore.NamingConventions --version 5.0.0
 ```
 
 ## Local use

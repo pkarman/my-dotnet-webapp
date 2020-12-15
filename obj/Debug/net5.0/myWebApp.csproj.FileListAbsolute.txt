@@ -43,3 +43,4 @@
 /Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
 /Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Npgsql.dll
 /Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/EFCore.NamingConventions.dll
