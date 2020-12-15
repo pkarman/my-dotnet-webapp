@@ -1,0 +1,14 @@
+version: '3'
+services:
+  my-dotnet-webapp-postgres:
+    image: postgres:11.6
+    container_name: my-dotnet-webapp-db
+    ports:
+      - "5432:5432"
+    volumes:
+      - "postgresdata:/var/lib/postgresql/data"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+
+volumes:
+  postgresdata:
