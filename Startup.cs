@@ -41,6 +41,12 @@ namespace myWebApp
               options => options.UseNpgsql(Configuration.GetConnectionString("BloggingContext"))
             );
 
+/*
+            services.AddIdentity<User, IdentityRole<long>>()
+                .AddEntityFrameworkStores<ApplicationDbContext,long>()
+                .AddDefaultTokenProviders();
+*/
+
             // TODO
             // services.AddDatabaseDeveloperPageExceptionFilter();
         }

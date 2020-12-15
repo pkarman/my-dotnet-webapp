@@ -134,3 +134,5 @@
 /Users/pkarman/dotnet/myWebApp/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml.g.cs
 /Users/pkarman/dotnet/myWebApp/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs
 /Users/pkarman/dotnet/myWebApp/obj/Debug/net5.0/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs
+/Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.Design.dll
+/Users/pkarman/dotnet/myWebApp/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
