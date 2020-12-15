@@ -18,7 +18,17 @@ Helpful tutorials:
 * https://www.npgsql.org/efcore/
 * https://docs.microsoft.com/en-us/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio-code
 
+## Setup
+
 ```
+make up
+make setup
 dotnet add package Npgsql --version 5.0.1.1
 dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
+```
+
+## Local use
+
+```
+make run
 ```
